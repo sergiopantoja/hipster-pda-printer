@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+	<title>Hipster PDA Printer</title>
+	<style>
+
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	html, body {
+		height: 100%;
+		font-size: 12px;
+	}
+
+	@page {size: 6in 4in; margin: 0.25in;}
+
+	.page {
+		clear: both;
+		height: 300px;
+	}
+
+	.side-back {
+		width: 46%;
+		height: 100%;
+		float: left;
+	}
+
+	.side-front {
+		width: 45%;
+		height: 100%;
+		margin-left: 4%;
+		padding-left: 4%;
+		float: left;
+		border-left: 1px solid #ccc;
+	}
+
+	.header {
+		text-align: left;
+		font-size: 32px;
+		margin-bottom: 5px
+	}
+
+	.quote {
+		text-align: left;
+		margin-bottom: 10px
+	}
+
+	.muted {
+		color: #aaa;
+		font-size: 10px;
+	}
+
+	.tasks, .tasks li {
+		padding-left: 20px;
+	}
+
+	.tasks li {
+		padding-left: 0px;
+		list-style-type: circle;
+	}
+
+	.notes li {
+		list-style-type: none;
+	}
+
+	ol {
+		padding-left: 20px;
+	}
+
+	</style>
+</head>
+<body>
+
+<div class="page">
+	<div class="side-back">
+		<div class="header">Field Notes</div>
+		<ul class="notes">
+			<li>_____________________________________</li>
+			<li>_____________________________________</li>
+			<li>_____________________________________</li>
+			<li>_____________________________________</li>
+			<li>_____________________________________</li>
+			<li>_____________________________________</li>
+			<li>_____________________________________</li>
+			<li>_____________________________________</li>
+			<li>_____________________________________</li>
+			<li>_____________________________________</li>
+			<li>_____________________________________</li>
+			<li>_____________________________________</li>
+			<li>_____________________________________</li>
+			<li>_____________________________________</li>
+			<li>_____________________________________</li>
+			<li>_____________________________________</li>
+	</div>
+	<div class="side-front">
+		<div class="header">
+			MAY 4, 2013
+		</div>
+		<div class="quote">"Life consists not in holding good cards but in playing those you hold well." <span class="muted">- Josh Billings (Comedian)</span></div>
+		<div class="quote">"But I'll tell you what hermits realize. If you go off into a far, far forest and get very quiet, you'll come to understand that you're connected with everything." <span class="muted">- Alan Watts (Philosopher)</span></div>
+		<div>
+			<strong>Word of the Day:</strong> droll.
+			<ol>
+				<li><span class="muted">(adjective)</span> amusing in an odd way; whimsically humorous; waggish.</li>
+				<li><span class="muted">(noun)</span> a droll person; jester; wag.</li>
+				<li><span class="muted">(verb)</span> [Archaic.]  to jest; joke.</li>
+			</ol>
+		</div>
+	</div>
+
+</div>
+
+</body>
+</html>
